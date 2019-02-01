@@ -1,0 +1,26 @@
+html,
+body {
+  height: 100%;
+}
+
+.Container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.Form {
+  max-width: 40rem;
+  padding: 1.5rem;
+  background: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 0.3rem;
+  margin: 1.5rem;
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba(0,0,0,0.1);
+}
+
+.Form__heading {
+  margin-top: 0;
+}
